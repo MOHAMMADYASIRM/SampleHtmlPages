@@ -1,0 +1,1394 @@
+body {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgba(135, 207, 235, 0.319);
+    height: 100px;
+    width: 1530px;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.logodis {
+    position: absolute;
+    left: 114px;
+    top: 10px;
+
+}
+
+.socialmedias {
+    position: absolute;
+    background-color: transparent;
+    left: 600px;
+    margin: 0px;
+}
+
+.links {
+    position: absolute;
+    background-color: transparent;
+    width: 890px;
+    height: 40px;
+    left: 650px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+}
+
+#btnlink {
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-shadow: 1px 1px 2px gainsboro;
+    cursor: pointer;
+}
+#btnlink:hover{
+    color: black;
+}
+
+.backgroundimage {
+    width: 1531px;
+    height: 518px;
+
+}
+
+.expkerala {
+    position: relative;
+    width: auto;
+    height: 780px;
+    background-color: transparent;
+}
+
+.dish1 {
+    position: absolute;
+    left: 620px;
+    top: 50px;
+    font-size: large;
+    color: rgb(9, 64, 71);
+}
+
+.expbtn {
+    position: absolute;
+    left: 630px;
+    top: 700px;
+}
+
+#expbtn {
+    width: 250px;
+    height: 40px;
+    font-size: large;
+    color: white;
+    background-color: rgb(9, 9, 107);
+    border: 0px;
+    font-weight: 10;
+}
+
+#expbtn:hover {
+    background-color: rgb(2, 2, 74);
+}
+
+.photogall {
+    position: relative;
+    width: 1230px;
+    height: 480px;
+    background-color: transparent;
+    left: 145px;
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 1px 1px 2px rgb(111, 111, 111);
+}
+
+.ph1 {
+    background-color: red
+}
+
+.ph2 {
+    position: relative;
+    background-color: rgb(192, 215, 14)
+}
+
+.ph3 {
+    position: relative;
+    background-color: rgb(14, 37, 150)
+}
+
+.ph4 {
+    position: relative;
+    background-color: rgba(255, 123, 0, 0.97)
+}
+
+.topdest {
+    position: relative;
+    width: auto;
+    height: 620px;
+    background-color: gainsboro;
+}
+
+.topdestdis {
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.topdesimg {
+    position: absolute;
+    width: 1330px;
+    height: 360px;
+    background-color: transparent;
+    left: 100px;
+    top: 150px;
+}
+
+.imng {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(237, 141, 14);
+}
+
+.imng1 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(230, 139, 19);
+    left: 332px;
+}
+
+.imng2 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(243, 138, 2);
+    left: 664px;
+}
+
+.imng3 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(237, 138, 7);
+    left: 996px;
+}
+
+.imng4 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(230, 134, 8);
+    top: 180px;
+
+}
+
+.imng5 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(234, 141, 18);
+    left: 332px;
+    top: 180px;
+}
+
+.imng6 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(190, 112, 10);
+    left: 664px;
+    top: 180px;
+}
+
+.imng7 {
+    position: absolute;
+    width: 330px;
+    height: 178px;
+    background-color: rgb(213, 126, 13);
+    left: 996px;
+    top: 180px;
+}
+
+.textinsimg {
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    color: white;
+    font-size: 26px;
+    text-shadow: 1px 2px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textinsimg1 {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    color: white;
+    font-size: 26px;
+    text-shadow: 1px 2px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textinsimg2 {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    color: white;
+    font-size: 26px;
+    text-shadow: 1px 2px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textinsimg3 {
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    color: white;
+    font-size: 26px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imngdis {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imngdis1 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 332px;
+}
+
+.imngdis2 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 664px;
+}
+
+.imngdis3 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 996px;
+}
+
+.imngdis4 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 313px;
+}
+
+.imngdis5 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 313px;
+    left: 332px;
+}
+
+.imngdis6 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 313px;
+    left: 664px;
+}
+
+.imngdis7 {
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 313px;
+    left: 996px;
+}
+
+.expourdest {
+    position: absolute;
+    left: 610px;
+    top: 540px;
+}
+
+#expourdest {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(8, 8, 111);
+    border: 0px;
+    color: white;
+    font-size: 16px;
+}
+.thingstodo{
+    position: relative;
+    width: auto;
+    height: 790px;
+    background-image: url(./sky-1.jpg);
+}
+.thingsdis{
+    position: absolute;
+    left: 610px;
+    top: 40px;
+    font-size: larger;
+    color: white;
+}
+.thingsimg1{
+    position: absolute;
+    left: 130px;
+    top: 140px;
+}
+.img1dis1
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.thingsimg2{
+    position: absolute;
+    left: 560px;
+    top: 140px;
+}
+.img1dis2
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.thingsimg3{
+    position: absolute;
+    left: 990px;
+    top: 140px;
+}
+.img1dis3
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.thingsimg4{
+    position: absolute;
+    left: 130px;
+    top: 420px;
+}
+.img1dis4
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.thingsimg5{
+    position: absolute;
+    left: 560px;
+    top: 420px;
+}
+.img1dis5
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.thingsimg6{
+    position: absolute;
+    left: 990px;
+    top: 420px;
+}
+.img1dis6
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.thingsbtn{
+    position: absolute;
+    left: 650px;
+    top: 720px;
+}
+#thingbtn{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(31, 31, 153);
+    color: white;
+    font-size: medium;
+    border: 0px;
+}
+.new{
+    width: auto;
+    background-color: white;
+    height: 400px;
+    position: relative;
+}
+.newheading{
+    position: absolute;
+    left: 690px;
+    top: 30px;
+    font-size: large;
+    font-weight: 200;
+    color: rgb(10, 41, 119);
+}
+.underline{
+    position: absolute;
+    width: 1300px;
+    border: solid rgb(212, 212, 212) 1px;
+    left: 115px;
+    top: 110px;
+}
+.newdis{
+    position: absolute;
+    left: 290px;
+    top: 130px;
+    font-family: monospace, cursive, serif;
+    color: rgb(116, 116, 221);
+    font-size: 14px;
+    cursor: pointer;
+}
+.newdis1{
+    position: absolute;
+    left: 770px;
+    top: 130px;
+    font-family: monospace, cursive, serif;
+    color: rgb(116, 116, 221);
+    font-size: 14px;
+    cursor: pointer;
+}
+.morenews{
+    position: absolute;
+    left: 670px;
+    top: 330px;
+
+}
+#news{
+    width: 200px;
+    height: 35px;
+    font-size: large;
+    border: 0px;
+    color: white;
+    background-color: rgb(21, 45, 149);
+    cursor: pointer;
+}
+.whatshappen{
+    background-color: gainsboro;
+    position: relative;
+    width: auto;
+    height: 600px;
+}
+.whatsheading{
+    position: absolute;
+    left: 654px;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color: rgb(9, 36, 90);
+}
+.happenimg1{
+    position: absolute;
+    left: 150px;
+    top: 180px;
+    margin: 0px;
+    padding-bottom: 1px;
+}
+.imghappdis1{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: rgb(92, 92, 188);
+    font-size: x-small;
+    font-family: 'Montserrat', sans-serif ;
+}
+.happenimg2{
+    position: absolute;
+    left: 355px;
+    top: 180px;
+    margin: 0px;
+    padding-bottom: 1px;
+}
+.imghappdis2{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: rgb(92, 92, 188);
+    font-size: x-small;
+    font-family: 'Montserrat', sans-serif ;
+}
+.happenimg3{
+    position: absolute;
+    left: 560px;
+    top: 180px;
+    margin: 0px;
+    padding-bottom: 1px;
+}
+.imghappdis3{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: rgb(92, 92, 188);
+    font-size: x-small;
+    font-family: 'Montserrat', sans-serif ;
+}
+.happenimg4{
+    position: absolute;
+    left: 765px;
+    top: 180px;
+    margin: 0px;
+    padding-bottom: 1px;
+}
+.imghappdis4{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: rgb(92, 92, 188);
+    font-size: x-small;
+    font-family: 'Montserrat', sans-serif ;
+}
+.happenimg5{
+    position: absolute;
+    left: 970px;
+    top: 180px;
+    margin: 0px;
+    padding-bottom: 1px;
+}
+.imghappdis5{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: rgb(92, 92, 188);
+    font-size: x-small;
+    font-family: 'Montserrat', sans-serif ;
+}
+.happenimg6{
+    position: absolute;
+    left: 1175px;
+    top: 180px;
+    margin: 0px;
+    padding-bottom: 1px;
+}
+.imghappdis6{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: rgb(92, 92, 188);
+    font-size: x-small;
+    font-family: 'Montserrat', sans-serif ;
+}
+.happenbtn{
+    position: absolute;
+    left: 650px;
+    top: 500px;
+}
+#happenbtn{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(22, 41, 120);
+    color: white;
+    font-size: 15px;
+    border: 0px;
+}
+.videoclass{
+    position: relative;
+    width: auto;
+    height: 850px;
+    background-color: white;
+}
+.disvideo{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    bottom: 350px;
+    color: white;
+    border: solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 550px;
+    font-size: xx-large;
+}
+.disvideo1{
+    position: absolute;
+    font-size: larger;
+    bottom: 320px;
+    color: white;
+    left: 490px;
+}
+.tourpackage{
+    width: auto;
+    position: relative;
+    height: 800px;
+    background-color: gainsboro;
+}
+.packagehead{
+    position: absolute;
+    font-size: large;
+    color: rgb(12, 47, 108);
+    left: 650px;
+    top: 30px;
+}
+.tourdis{
+    position: absolute;
+    font-size: 19px;
+    color: rgb(60, 60, 60);
+    left: 480px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif ;
+}
+.packimg{
+    position: absolute;
+    left: 150px;
+    top: 180px;
+}
+.packdis{
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+    
+}
+.packbtn
+{
+    position: absolute;
+    left: 230px;
+    margin: 0px;
+    top: 190px;
+}
+#packbtn{
+    width: 130px;
+    height: 25px;
+    font-size: 10px;
+    background-color: rgb(167, 6, 6);
+    border: 0px;
+    font-weight: 500;
+    color: rgb(210, 208, 208);
+    cursor: pointer;
+}
+.packimg1{
+    position: absolute;
+    left: 560px;
+    top: 180px;
+}
+.packdis1{
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+}
+.packimg2{
+    position: absolute;
+    left: 970px;
+    top: 180px;
+}
+.packdis2{
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+}
+.packimg3{
+    position: absolute;
+    left: 150px;
+    top: 440px;
+}
+.packdis3{
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+}
+.packimg4{
+    position: absolute;
+    left: 560px;
+    top: 440px;
+}
+.packdis4{
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+}
+.packimg5{
+    position: absolute;
+    left: 970px;
+    top: 440px;
+}
+.packdis5{
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+}
+.packbtnf{
+    position: absolute;
+    left: 650px;
+    top: 730px;
+}
+#findbtn{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(19, 50, 135);
+    color: white;
+    font-size: large;
+    border: 0px;
+    cursor: pointer;
+}
+.planurtrip{
+    position: relative;
+    width: auto;
+    height: 480px;
+    background-color: white;
+}
+.planurheading{
+    position: absolute;
+    left: 680px;
+    top: 40px;
+    color: rgb(12, 30, 78);
+    font-size: large;
+    font-weight: 100;
+}
+.planimgs{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 200px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 350px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 500px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 650px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 800px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs5{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 950px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 1100px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.planimgs7 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    left: 1250px;
+    background-color: rgb(6, 6, 83);
+    border-radius: 60px;
+
+}
+.plandis
+{
+    position: absolute;
+    top: 100px;
+    font-size: xx-small;
+    color: rgba(6, 6, 79, 0.908);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.searchforacc{
+    position: absolute;
+    background-color: rgb(205, 203, 212);
+    width: 870px;
+    height: 120px;
+    color: rgb(44, 102, 185);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    left: 350px;
+    top: 330px;
+}
+.searchforacc1{
+    position: absolute;
+    left: 625px;
+    top: 368px;
+}
+#sb{
+    width: 400px;
+    height: 40px;
+    border: 0px;
+}
+.accbtn{
+    position: absolute;
+    left: 1060px;
+    top: 368px;
+}
+#accbtn{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(3, 161, 3);
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+.expphtgallery{
+    position: relative;
+    width: auto;
+    height: 750px;
+    background-color: white;
+}
+.gallheading
+{
+    position: absolute;
+    left: 630px;
+    top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(16, 38, 109);
+    font-size: large;
+}
+.gallerydiv{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 150px;
+}
+.gallerydiv2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 150px;
+    left: 253px;
+}
+.gallerydiv3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 150px;
+    left: 506px;
+}
+.gallerydiv4{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 150px;
+    left: 759px;
+}
+.gallerydiv5{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 150px;
+    left: 1012px;
+}
+.gallerydiv6{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 150px;
+    left: 1265px;
+}
+
+.gallimgdis{
+    position: absolute;
+    top: 210px;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+.gallimgdis12{
+    position: absolute;
+    top: 210px;
+    width: 265px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+.gallimgdis6{
+    position: absolute;
+    top: 210px;
+    width: 265px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+.gallerydiv7{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 400px;
+}
+.gallerydiv8{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 400px;
+    left: 253px;
+}
+.gallerydiv9{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 400px;
+    left: 506px;
+}
+.gallerydiv10{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 400px;
+    left: 759px;
+}
+.gallerydiv11{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 400px;
+    left: 1012px;
+}
+.gallerydiv12{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 400px;
+    left: 1265px;
+}
+.gallbtn{
+    position: absolute;
+    left: 650px;
+    top: 690px;
+}
+#gallbtn{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(13, 37, 96);
+    border: 0px;
+    color: white;
+    font-size: medium;
+}
+.footerdiv1
+{
+    position: relative;
+    width: 1530px;
+    height: 420px;
+    background-color: gainsboro;
+}
+.footerdiv2
+{
+    position: relative;
+    width: 1530px;
+    height: 300px;
+    background-color: white;
+}
+.footcont1
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background-color: transparent;
+    top: 30px;
+    left: 140px;
+}
+.footcont2
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background-color: transparent;
+    top: 30px;
+    left: 350px;
+}
+.footcont3
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background-color: transparent;
+    top: 30px;
+    
+    left: 550px;
+}
+.footcont4
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background-color: transparent;
+    top: 30px;
+    left: 750px;
+}
+.footcont5
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background-color: transparent;
+    top: 30px;
+    left: 970px;
+}
+.footcont6
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background-color: transparent;
+    top: 30px;
+    left: 1200px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+.subnews
+{
+    position: absolute;
+    right: 840px;
+    width: 300px;
+    top: 170px;
+}
+.subnewsdis
+{
+    position: absolute;
+    right: 855px;
+    width: 300px;
+    top: 210px;
+    color: rgb(78, 78, 78);
+}
+.subnewsbox
+{
+    position: absolute;
+    right: 920px;
+    width: 300px;
+    top: 260px;
+}
+#subbox{
+    width: 300px;
+    height: 35px;
+    border: 0px;
+    box-shadow: 1px 1px 1px rgb(182, 180, 180);
+}
+.subnewsbtn{
+    position: absolute;
+    right: 615px;
+    width: 300px;
+    top: 260px;
+}
+#subbtnnews{
+    width: 100px;
+    height: 38px;
+    background-color: rgb(9, 40, 126);
+    color: white;
+    border: 0px;
+    font-size: x-small;
+}
+.recruit{
+    position: absolute;
+    right: 400px;
+    width: 300px;
+    top: 320px;
+}   
+#recruit{
+    width: 170px;
+    height: 40px;
+    background-color: rgb(236, 49, 49);
+    border: 0px;
+    color: white;
+    font-size: medium;
+}
+.subredis{
+    position: absolute;
+    right: 30px;
+    width: 400px;
+    height: 200px;
+    top: 200px;
+    text-align: center;
+}
+.foot2dis{
+    position: absolute;
+        left: 350px;
+        width: 800px;
+        height: auto;
+        top: 200px;
+        text-align: center;
+        font-size: large;
+}
+.imgfoot{
+    top: 70px;
+    position: absolute;
+    left: 600px;
+}
+.imgfoot1{
+    top: 60px;
+    position: absolute;
+    left: 700px;
+}
+.imgfoot2{
+    top: 60px;
+    position: absolute;
+    left: 800px;
+}
+.imgfoot3{
+    top: 60px;
+    position: absolute;
+    left: 900px;
+}
